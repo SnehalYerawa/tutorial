@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&family=Oswald:wght@200&family=Radio+Canada:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* list-style: none;
+    text-decoration: none; */
+    border: none;
+    outline: none;
+
+}
+body{
+    background-color: black;
+}
+
+.gym{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gym .main img{
+    height: auto;
+    width: 405px;
+    max-width: 100%;
+    border: 3px solid red;
+}
+.text{
+    width: 800px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text h2{
+    color: rgb(255, 230, 230);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    /* border-bottom: .2rem solid rgb(11, 253, 120); */
+
+}
+.text h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /* border-bottom: .2rem solid rgb(255, 38, 0); */
+}
+.text span{
+    font-size: 35px
+}
+ 
+
+.text p{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+.list{
+    color: white;
+    font-size: larger;
+    line-height: 2;
+}
